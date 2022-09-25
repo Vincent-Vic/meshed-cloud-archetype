@@ -4,4 +4,4 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package cn.meshed.cloud.authorization.executor.query;
+package ${package}.executor.query;

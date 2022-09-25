@@ -4,4 +4,4 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package $package.wap;
+package ${package}.wap;

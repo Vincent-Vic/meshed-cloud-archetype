@@ -4,4 +4,4 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package $package.domain.gateway;
+package ${package}.domain.gateway;

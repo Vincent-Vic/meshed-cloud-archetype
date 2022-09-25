@@ -4,4 +4,4 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package $package.gatewayimpl.database.dataobject;
+package ${package}.gatewayimpl.database.dataobject;

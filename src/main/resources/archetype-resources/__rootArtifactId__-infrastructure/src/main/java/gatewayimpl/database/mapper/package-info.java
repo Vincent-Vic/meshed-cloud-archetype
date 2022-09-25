@@ -4,4 +4,4 @@
  * @version 1.0
  * @author Vincent Vic
  */
-package $package.gatewayimpl.database.mapper;
+package ${package}.gatewayimpl.database.mapper;
