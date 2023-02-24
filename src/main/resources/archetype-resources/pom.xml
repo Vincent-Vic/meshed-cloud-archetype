@@ -68,7 +68,7 @@
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
-                <artifactId>meshed-cloud-${rootArtifactId}-app</artifactId>
+                <artifactId>${rootArtifactId}-app</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
