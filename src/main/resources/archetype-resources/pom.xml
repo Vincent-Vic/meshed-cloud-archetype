@@ -25,7 +25,11 @@
         <meshed.cola.version>1.0.0-SNAPSHOT</meshed.cola.version>
         <meshed-cloud-start-starter.version>1.0.0-SNAPSHOT</meshed-cloud-start-starter.version>
         <meshed-cloud-doc-starter.version>1.0.0-SNAPSHOT</meshed-cloud-doc-starter.version>
-
+        <meshed.mysql.version>1.0.0-SNAPSHOT</meshed.mysql.version>
+        <meshed.common.version>1.0.0-SNAPSHOT</meshed.common.version>
+        <meshed.cqrs.version>1.0.0-SNAPSHOT</meshed.cqrs.version>
+        <meshed.dubbo.version>1.0.0-SNAPSHOT</meshed.dubbo.version>
+        <meshed.context.version>1.0.0-SNAPSHOT</meshed.context.version>
     </properties>
 
     <modules>
@@ -64,7 +68,7 @@
             </dependency>
             <dependency>
                 <groupId>${groupId}</groupId>
-                <artifactId>meshed-cloud-authorization-app</artifactId>
+                <artifactId>meshed-cloud-${rootArtifactId}-app</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -97,6 +101,31 @@
                 <version>${meshed.cola.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>cn.meshed.base</groupId>
+                <artifactId>meshed-cloud-common-starter</artifactId>
+                <version>${meshed.common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.meshed.cloud</groupId>
+                <artifactId>meshed-cloud-data-mysql-starter</artifactId>
+                <version>${meshed.mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.meshed.base</groupId>
+                <artifactId>meshed-cloud-cqrs-starter</artifactId>
+                <version>${meshed.cqrs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.meshed.cloud</groupId>
+                <artifactId>meshed-cloud-dubbo-starter</artifactId>
+                <version>${meshed.dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.meshed.context</groupId>
+                <artifactId>meshed-cloud-context-starter</artifactId>
+                <version>${meshed.context.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

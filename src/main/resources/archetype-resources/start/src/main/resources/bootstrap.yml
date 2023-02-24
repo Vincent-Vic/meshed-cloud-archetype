@@ -1,14 +1,14 @@
 server:
   port: 9999
   servlet:
-    context-path: /appname
+    context-path: /${projectKey}
 spring:
   mvc:
     pathmatch:
       # 配置策略
       matching-strategy: ANT_PATH_MATCHER
   application:
-    name: appname
+    name: ${projectKey}
   cloud:
     nacos:
       #服务发现
@@ -57,7 +57,7 @@ dubbo:
   registry:
     address: nacos://${spring.cloud.nacos.config.server-addr}
   application:
-    name: appname-dubbo
+    name: ${projectKey}-dubbo
     register-consumer: true
   consumer:
     check: false

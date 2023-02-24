@@ -27,6 +27,13 @@ under the License.
     <requiredProperty key="gitignore">
       <defaultValue>.gitignore</defaultValue>
     </requiredProperty>
+    <!--    此处domain意味系统内部的子领域 -->
+    <requiredProperty key="domain">
+      <defaultValue>subdomain</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="projectKey">
+      <defaultValue>appname</defaultValue>
+    </requiredProperty>
   </requiredProperties>
 
   <fileSets>
