@@ -22,9 +22,5 @@
             <artifactId>meshed-cloud-data-mysql-starter</artifactId>
             <version>${meshed.mysql.version}</version>
         </dependency>
-        <dependency>
-            <groupId>cn.meshed.context</groupId>
-            <artifactId>meshed-cloud-context-starter</artifactId>
-        </dependency>
     </dependencies>
 </project>
