@@ -41,6 +41,7 @@ under the License.
       <directory></directory>
       <includes>
         <include>__gitignore__</include>
+        <include>Dockerfile</include>
         <include>**.md</include>
       </includes>
     </fileSet>

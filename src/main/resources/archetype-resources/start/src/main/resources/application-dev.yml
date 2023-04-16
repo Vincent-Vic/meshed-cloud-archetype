@@ -1,0 +1,18 @@
+service:
+#  security:
+#    #排除内网安全无需校验的接口
+#    excludeUris:
+#      # 模糊匹配
+#      - /iam/oauth/**
+#      - /iam/logout
+  mock:
+    #是否开启模拟用户
+    enable: true
+    # 用户ID
+    user-id: 1
+    # 模拟用户名称
+    username: 模拟用户
+    #多参数采用逗号切割
+    #    access: xxx
+    #多参数采用逗号切割
+    roles: admin

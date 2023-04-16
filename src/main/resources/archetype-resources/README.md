@@ -4,7 +4,7 @@
 
 VM 参数
 
-> -DPORT=9999 -DACTIVE=dev -DNACOS_HOST=nacos-ip -DNACOS_PORT=nacos-port
+> -DPORT=8080 -DACTIVE=dev -DNACOS_HOST=nacos-ip -DNACOS_PORT=nacos-port
 
 参数说明：
 - PORT: 项目启动端口
@@ -15,4 +15,4 @@ VM 参数
 
 ## Swagger Doc
 
-> http://localhost:9998/rd/doc.html
+> http://localhost:8080/${server.servlet.context-path}/doc.html
